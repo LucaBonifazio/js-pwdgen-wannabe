@@ -7,7 +7,7 @@
 const name = prompt('Come ti chiami?');
 const surname = prompt('Il tuo cognome?');
 const color = prompt('Il tuo colore preferito?');
-const recap = (`${name} ${surname} ${color}`)
+const recap = (`${name} ${surname} ${color} 22`)
 
 document.getElementById('name').innerHTML = name;
 document.getElementById('surname').innerHTML = surname;
