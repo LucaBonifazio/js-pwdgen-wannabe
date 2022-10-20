@@ -7,9 +7,9 @@
 const name = prompt('Come ti chiami?');
 const surname = prompt('Il tuo cognome?');
 const color = prompt('Il tuo colore preferito?');
-const recap = (`${name} ${surname} ${color} 22`)
+const password = (`${name}${surname}${color}22`)
 
 document.getElementById('name').innerHTML = name;
 document.getElementById('surname').innerHTML = surname;
 document.getElementById('color').innerHTML = color;
-document.getElementById('recap').innerHTML = recap;
+document.getElementById('password').innerHTML = password;
